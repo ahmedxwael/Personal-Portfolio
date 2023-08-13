@@ -1,7 +1,10 @@
+import Intro from "@/components/Intro";
+
 export default function Home() {
 	return (
 		<>
-			<section>Home</section>
+			{/* Don't forget to add your cv */}
+			<Intro />
 		</>
 	);
 }

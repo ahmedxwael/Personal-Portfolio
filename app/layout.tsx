@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -17,19 +18,19 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${inter.className} bg-gray-50 text-gray-950 relative dark:bg-gray-950 dark:text-gray-50 dark:text-opacity-90`}
+				className={`${inter.className} px-4 bg-gray-50 text-gray-950 relative dark:bg-gray-950 dark:text-gray-300 dark:text-opacity-90`}
 			>
-				<div className="main" aria-hidden="true">
-					<div
-						aria-hidden="true"
-						className="bg-[#ff3a3d50] absolute top-[-5rem] -z-10 right-[5rem] h-[40rem] w-[40rem] rounded-full blur-[15rem] sm:w-[68.75rem] dark:bg-[#ff424540]"
-					></div>
-					<div
-						aria-hidden="true"
-						className="bg-[#3c1eff50] absolute bottom-[-5rem] -z-10 left-[-35rem] h-[30rem] w-[50rem] rounded-full blur-[15rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#4f3fff40]"
-					></div>
-				</div>
-				<main className="pt-28 sm:pt-36">{children}</main>
+				<div
+					aria-hidden="true"
+					className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#94626390]"
+				></div>
+				<div
+					aria-hidden="true"
+					className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#67639490]"
+				></div>
+
+				<Header />
+				<main className="pt-32 sm:pt-32">{children}</main>
 			</body>
 		</html>
 	);
