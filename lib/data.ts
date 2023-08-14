@@ -30,6 +30,18 @@ export const links = [
 	},
 ] as const;
 
+export const about = [
+	{
+		p: "After graduating with a degree in communication and electronics engineering, I decided to pursue my passion for programming.",
+	},
+	{
+		p: "I learned the fundamentals of programming, then I decided to be a frontend web developer. My core stack is React.js, Next.js, TypeScript, and Tailwind CSS.",
+	},
+	{
+		p: "I am always looking to learn new technologies. I am currently looking for a full-time position as a front-end developer.",
+	},
+];
+
 export const experiencesData = [
 	{
 		title: "Graduated bootcamp",

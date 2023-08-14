@@ -30,7 +30,7 @@ export default function RootLayout({
 				></div>
 
 				<Header />
-				<main className="pt-32 sm:pt-32">{children}</main>
+				<main className="py-32 flex flex-col items-center">{children}</main>
 			</body>
 		</html>
 	);
