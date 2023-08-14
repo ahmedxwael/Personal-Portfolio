@@ -10,7 +10,7 @@ const Header = () => {
 	return (
 		<header className="z-[999] relative">
 			<motion.nav
-				className="fixed flex items-center justify-center left-1/2 border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/20 backdrop-blur-[0.5rem] top-4 sm:top-6 w-[28rem] sm:w-[36rem] max-w-full rounded-2xl sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
+				className="fixed flex items-center justify-center left-1/2 border-2 border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/5 backdrop-blur-[0.5rem] top-4 sm:top-6 sm:h-14 w-[28rem] sm:w-[36rem] max-w-full rounded-2xl sm:rounded-full dark:bg-gray-950 dark:border-white/10 dark:bg-opacity-75"
 				initial={{ y: -100, x: "-50%", opacity: 0 }}
 				animate={{ y: 0, x: "-50%", opacity: 1 }}
 			>
@@ -30,7 +30,7 @@ const Header = () => {
 								{link.name === activeSection ? (
 									<motion.span
 										className={
-											"bg-gray-100 my-auto h-8 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
+											"bg-gray-200 my-auto h-8 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
 										}
 										layoutId="activeSection"
 										transition={{
