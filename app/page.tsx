@@ -1,14 +1,15 @@
-import Intro from "@/components/sections/Intro";
 import About from "@/components/sections/about";
-import MyProjects from "@/components/sections/my-projects";
+import Intro from "@/components/sections/intro";
+import LatestProjects from "@/components/sections/latest-projects";
+import Skills from "@/components/sections/skills";
 
 export default function Home() {
 	return (
 		<>
-			{/* Don't forget to add your cv */}
 			<Intro />
 			<About />
-			<MyProjects />
+			<LatestProjects />
+			<Skills />
 		</>
 	);
 }

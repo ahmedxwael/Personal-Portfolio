@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+import Navbar from "@/components/navbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -18,7 +18,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${inter.className} px-4 bg-gray-50 text-gray-950 relative dark:bg-gray-950 dark:text-gray-300 dark:text-opacity-90`}
+				className={`${inter.className} px-4 bg-gray-50 text-gray-950 relative dark:bg-gray-950 dark:text-gray-200/90 dark:text-opacity-90`}
 			>
 				<div
 					aria-hidden="true"
@@ -29,7 +29,7 @@ export default function RootLayout({
 					className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#67639490]"
 				></div>
 
-				<Header />
+				<Navbar />
 				<main className="py-32 flex flex-col items-center">{children}</main>
 			</body>
 		</html>

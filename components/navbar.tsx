@@ -3,14 +3,15 @@
 import { links } from "@/lib/data";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import ThemeBtn from "./ThemeBtn";
 
-const Header = () => {
+const Navbar = () => {
 	const activeSection = "About";
 
 	return (
 		<header className="z-[999] relative">
 			<motion.nav
-				className="fixed flex items-center justify-center left-1/2 border-2 border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/5 backdrop-blur-[0.5rem] top-4 sm:top-6 sm:h-14 w-[28rem] sm:w-[36rem] max-w-full rounded-2xl sm:rounded-full dark:bg-gray-950 dark:border-white/10 dark:bg-opacity-75"
+				className="fixed flex items-center justify-center left-1/2 border-b-2 sm:border-2 border-white border-opacity-10 bg-white bg-opacity-90 shadow-lg shadow-black/5 backdrop-blur-[0.5rem] top-0 sm:top-6 sm:h-14 w-full sm:w-[36rem] sm:rounded-full dark:bg-gray-950 dark:border-white/10 dark:bg-opacity-75"
 				initial={{ y: -100, x: "-50%", opacity: 0 }}
 				animate={{ y: 0, x: "-50%", opacity: 1 }}
 			>
@@ -23,7 +24,7 @@ const Header = () => {
 							animate={{ y: 0, opacity: 1 }}
 						>
 							<Link
-								className="flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300"
+								className="flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-400/95 dark:hover:text-gray-300"
 								href={link.hash}
 							>
 								{link.name}
@@ -45,8 +46,9 @@ const Header = () => {
 					))}
 				</ul>
 			</motion.nav>
+			<ThemeBtn />
 		</header>
 	);
 };
 
-export default Header;
+export default Navbar;

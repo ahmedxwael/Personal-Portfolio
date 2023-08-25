@@ -68,40 +68,66 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: "CorpComment",
+		title: "Bloggify",
 		description:
-			"I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-		tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-		imageUrl: "",
+			"It's a blog website that represents posts written and published in a GitHub repository and displays them as an MDX files. Build with the latest feautres of next.js such as app router and server-side components",
+		tags: [
+			"React",
+			"Next.js",
+			"GitHub API",
+			"MDX",
+			"Tailwind CSS",
+			"TypeScript",
+		],
+		imageUrl: "/assets/images/bloggify.png",
 	},
 	{
-		title: "rmtDev",
+		title: "Promptopia",
 		description:
-			"Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-		tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-		imageUrl: "",
+			"It's an website used to generate and save AI prompts to be used when it's needed. Users can sign in with their google account and save their own prompts and other users promts.",
+		tags: [
+			"React",
+			"TypeScript",
+			"Next.js",
+			"Tailwind css",
+			"Next auth",
+			"MongoDB",
+		],
+		imageUrl: "/assets/images/promptopia.png",
 	},
 	{
-		title: "Word Analytics",
+		title: "Blog nook",
 		description:
-			"A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-		tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-		imageUrl: "",
+			"It is a website that allows individuals or businesses to create and publish their own blogs on the internet. Each user can create and manage their own blog and blog articles.",
+		tags: ["React", "Clerk", "TypeScript", "Tailwind css", "Firebase"],
+		imageUrl: "/assets/images/blog-nook.png",
 	},
-] as const;
+	{
+		title: "E-commerce Store",
+		description:
+			"It is a modern and user-friendly platform that allows customers to browse, search, and purchase products online. It incorporates various technologies to provide a seamless and interactive shopping experience.",
+		tags: ["React", "APIs", "Redux", "Tailwind css", "TypeScript"],
+		imageUrl: "/assets/images/ecommerce.png",
+	},
+];
 
 export const skillsData = [
+	"Next.js",
+	"React",
+	"TypeScript",
+	"JavaScript",
+	"Tailwind CSS",
+	"Shadcn/UI",
+	"MongoDB",
+	"Firebase",
+	"Supabase",
+	"Redux toolkit",
+	"React Query",
+	"React Form hook",
+	"REST API",
+	"JSON",
 	"HTML",
 	"CSS",
-	"JavaScript",
-	"TypeScript",
-	"React",
-	"Next.js",
+	"GitHub",
 	"Git",
-	"Tailwind",
-	"MongoDB",
-	"Redux",
-	"Framer Motion",
-	"Shadcn",
-	"React Query",
 ] as const;
