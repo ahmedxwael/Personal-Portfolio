@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";

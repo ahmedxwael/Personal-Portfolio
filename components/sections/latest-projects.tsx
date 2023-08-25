@@ -1,5 +1,3 @@
-"use client";
-
 import { projectsData } from "@/lib/data";
 import ProjectCard from "../project-card";
 import SectionHeading from "../section-header";

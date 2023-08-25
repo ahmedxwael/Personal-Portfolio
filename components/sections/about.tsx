@@ -1,7 +1,4 @@
-"use client";
-
 import { about } from "@/lib/data";
-import { motion } from "framer-motion";
 import SectionHeading from "../section-header";
 
 const About = () => {

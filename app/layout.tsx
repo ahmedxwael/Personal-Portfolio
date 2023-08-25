@@ -18,7 +18,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${inter.className} px-4 bg-gray-50 text-gray-950 relative dark:bg-gray-950 dark:text-gray-200/90 dark:text-opacity-90`}
+				className={`${inter.className} px-4 bg-gray-100 text-gray-950 relative dark:bg-gray-950 dark:text-gray-200/90 dark:text-opacity-90`}
 			>
 				<div
 					aria-hidden="true"
