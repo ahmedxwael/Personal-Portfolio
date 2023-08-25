@@ -9,35 +9,19 @@ import { HiDownload } from "react-icons/hi";
 const Intro = () => {
 	return (
 		<section
-			ref={null}
 			id="home"
 			className="max-w-[30rem] sm:max-w-[50rem] text-center mx-auto sm:mb-0 scroll-mt-[100rem]"
 		>
-			<motion.h1
-				className="mb-10 mt-12 sm:mt-0 px-4 text-[1.6rem] font-medium !leading-[1.5] sm:text-4xl"
-				initial={{ opacity: 0, y: 100 }}
-				animate={{ opacity: 1, y: 0 }}
-			>
+			<h1 className="mb-10 mt-12 sm:mt-0 px-4 text-[1.6rem] font-medium !leading-[1.5] sm:text-4xl">
 				Hello, I&#39;m Ahmed Wael
 				<br />
 				I&#39;m a Front-end developer. I enjoy building Sites and stuff for Web
-			</motion.h1>
+			</h1>
 
-			<motion.div
-				className="flex flex-col sm:flex-row items-center flex-wrap justify-center gap-4 px-4 text-lg font-medium"
-				initial={{ opacity: 0, y: 100 }}
-				animate={{ opacity: 1, y: 0 }}
-				transition={{
-					delay: 0.1,
-				}}
-			>
+			<div className="flex flex-col sm:flex-row items-center flex-wrap justify-center gap-4 px-4 text-lg font-medium">
 				<Link
 					href="#contact"
 					className="group bg-gray-900 text-gray-300 hover:text-gray-100 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-					// onClick={() => {
-					// 	setActiveSection("Contact");
-					// 	setTimeOfLastClick(Date.now());
-					// }}
 				>
 					Contact me
 				</Link>
@@ -67,7 +51,7 @@ const Intro = () => {
 						<FaGithubSquare />
 					</a>
 				</div>
-			</motion.div>
+			</div>
 		</section>
 	);
 };
