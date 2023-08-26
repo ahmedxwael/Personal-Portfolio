@@ -1,5 +1,5 @@
 import ThemeBtn from "@/components/ThemeBtn";
-import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 import ActiveSectionProvider from "@/context/active-section-provider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -21,7 +21,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="!scroll-smooth">
 			<body
-				className={`${inter.className} px-4 bg-gray-50 text-gray-950 relative dark:bg-gray-950 dark:text-gray-200/90 dark:text-opacity-90`}
+				className={`${inter.className} px-4 bg-gray-50 text-gray-950 relative dark:bg-gray-950 dark:text-gray-200/95`}
 			>
 				<div
 					aria-hidden="true"
@@ -32,10 +32,10 @@ export default function RootLayout({
 					className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#67639490]"
 				></div>
 				<ActiveSectionProvider>
-					<Navbar />
-					<main className="py-32 flex flex-col items-center">{children}</main>
-					<Toaster />
+					{children}
+					<Footer />
 					<ThemeBtn />
+					<Toaster />
 				</ActiveSectionProvider>
 			</body>
 		</html>

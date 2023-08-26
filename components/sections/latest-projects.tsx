@@ -3,6 +3,7 @@
 import { useSectionInView } from "@/hooks/useSectionInView";
 import { projectsData } from "@/lib/data";
 import { ProjectType } from "@/types";
+import Link from "next/link";
 import ProjectCard from "../project-card";
 import SectionHeading from "../section-header";
 
@@ -31,6 +32,12 @@ export default function LatestProjects() {
 					<ProjectCard key={index} {...project} />
 				))}
 			</div>
+			<Link
+				href="/projects"
+				className="inline-block mt-10 py-3 shadow-md font-semibold px-6 rounded-full bg-gray-900 text-white outline-none transition-all hover:bg-gray-700 dark:bg-white/10 dark:hover:bg-white/20"
+			>
+				All Projects
+			</Link>
 		</section>
 	);
 }

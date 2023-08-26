@@ -22,8 +22,9 @@ const Contact = () => {
 
 	const notify = (message: string) => toast(message);
 
-	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-		e.preventDefault();
+	const handleSubmit = async (
+		e: React.MouseEvent<HTMLButtonElement, MouseEvent>
+	) => {
 		setIsLoading(true);
 		const res = await fetch("/api/send-email", {
 			method: "POST",
@@ -73,10 +74,7 @@ const Contact = () => {
 				Please contact me directly through this form.
 			</p>
 
-			<form
-				className="mt-10 flex flex-col dark:text-black"
-				onSubmit={handleSubmit}
-			>
+			<form className="mt-10 flex flex-col dark:text-black">
 				<input
 					className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
 					name="senderEmail"
@@ -97,6 +95,8 @@ const Contact = () => {
 					onChange={handleChange}
 				/>
 				<button
+					onClick={handleSubmit}
+					type="button"
 					disabled={isLoading}
 					className="py-3 font-semibold px-6 disabled:cursor-not-allowed disabled:opacity-60 disabled:dark:hover:bg-white/10 disabled:hover:bg-gray-900 rounded-xl w-full bg-gray-900 text-white outline-none transition-all hover:bg-gray-700 dark:bg-white/10 dark:hover:bg-white/20 disabled:bg-opacity-65"
 				>

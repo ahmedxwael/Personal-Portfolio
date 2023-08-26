@@ -1,4 +1,4 @@
-import Footer from "@/components/footer";
+import Navbar from "@/components/navbar";
 import Experience from "@/components/sections/Experience";
 import About from "@/components/sections/about";
 import Contact from "@/components/sections/contact";
@@ -8,14 +8,14 @@ import Skills from "@/components/sections/skills";
 
 export default function Home() {
 	return (
-		<>
+		<main className="py-32 flex flex-col items-center">
+			<Navbar />
 			<Intro />
 			<About />
 			<LatestProjects />
 			<Skills />
 			<Experience />
 			<Contact />
-			<Footer />
-		</>
+		</main>
 	);
 }
