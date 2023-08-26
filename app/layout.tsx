@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import ActiveSectionProvider from "@/context/active-section-provider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Toaster } from "react-hot-toast";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -33,6 +34,7 @@ export default function RootLayout({
 				<ActiveSectionProvider>
 					<Navbar />
 					<main className="py-32 flex flex-col items-center">{children}</main>
+					<Toaster />
 					<ThemeBtn />
 				</ActiveSectionProvider>
 			</body>
