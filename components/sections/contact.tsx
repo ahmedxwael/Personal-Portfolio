@@ -1,11 +1,30 @@
+"use client";
+
+import { useSectionInView } from "@/hooks/useSectionInView";
+import { motion } from "framer-motion";
 import React from "react";
 import SectionHeading from "../section-header";
 
 const Contact = () => {
+	const { ref } = useSectionInView("Contact", 0);
+
 	return (
-		<section
+		<motion.section
 			id="contact"
-			className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+			ref={ref}
+			className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center scroll-mt-28"
+			initial={{
+				opacity: 0,
+			}}
+			whileInView={{
+				opacity: 1,
+			}}
+			transition={{
+				duration: 1,
+			}}
+			viewport={{
+				once: true,
+			}}
 		>
 			<SectionHeading>Contact me</SectionHeading>
 
@@ -37,7 +56,7 @@ const Contact = () => {
 					Submit
 				</button>
 			</form>
-		</section>
+		</motion.section>
 	);
 };
 

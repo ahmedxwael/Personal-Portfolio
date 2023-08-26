@@ -1,11 +1,24 @@
+"use client";
+
+import { useSectionInView } from "@/hooks/useSectionInView";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 
 const Intro = () => {
+	const { ref } = useSectionInView("Home");
+
 	return (
-		<section
+		<motion.section
+			initial={{ opacity: 0, scale: 0 }}
+			animate={{ opacity: 1, scale: 1 }}
+			transition={{
+				type: "tween",
+				duration: 0.2,
+			}}
+			ref={ref}
 			id="home"
 			className="max-w-[30rem] sm:max-w-[50rem] text-center mx-auto sm:mb-0 scroll-mt-[100rem]"
 		>
@@ -49,7 +62,7 @@ const Intro = () => {
 					</a>
 				</div>
 			</div>
-		</section>
+		</motion.section>
 	);
 };
 

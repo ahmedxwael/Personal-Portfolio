@@ -80,6 +80,8 @@ export const projectsData = [
 			"TypeScript",
 		],
 		imageUrl: "/assets/images/bloggify.png",
+		url: "https://blog-nextjs-two-zeta.vercel.app",
+		githubUrl: "https://github.com/JAHMD/Blog-Nextjs",
 	},
 	{
 		title: "Promptopia",
@@ -94,6 +96,8 @@ export const projectsData = [
 			"MongoDB",
 		],
 		imageUrl: "/assets/images/promptopia.png",
+		url: "https://promptopia-alpha-three.vercel.app",
+		githubUrl: "https://github.com/JAHMD/Promptopia",
 	},
 	{
 		title: "Blog nook",
@@ -101,6 +105,8 @@ export const projectsData = [
 			"It is a website that allows individuals or businesses to create and publish their own blogs on the internet. Each user can create and manage their own blog and blog articles.",
 		tags: ["React", "Clerk", "TypeScript", "Tailwind css", "Firebase"],
 		imageUrl: "/assets/images/blog-nook.png",
+		url: "https://blog-nook.vercel.app",
+		githubUrl: "https://github.com/JAHMD/Blog-nook",
 	},
 	{
 		title: "E-commerce Store",
@@ -108,6 +114,8 @@ export const projectsData = [
 			"It is a modern and user-friendly platform that allows customers to browse, search, and purchase products online. It incorporates various technologies to provide a seamless and interactive shopping experience.",
 		tags: ["React", "APIs", "Redux", "Tailwind css", "TypeScript"],
 		imageUrl: "/assets/images/ecommerce.png",
+		url: "https://the-store-ecommerce.netlify.app",
+		githubUrl: "https://github.com/JAHMD/E-Commerce",
 	},
 ];
 
