@@ -2,6 +2,7 @@ import ThemeBtn from "@/components/ThemeBtn";
 import ToTopBtn from "@/components/ToTopBtn";
 import Footer from "@/components/footer";
 import ActiveSectionProvider from "@/context/active-section-provider";
+import { ThemeContextProvider } from "@/context/theme-context";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
@@ -33,13 +34,15 @@ export default function RootLayout({
 					className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#67639490]"
 				></div>
 				<ActiveSectionProvider>
-					{children}
-					<Footer />
-					<div>
-						<ToTopBtn />
-						<ThemeBtn />
-					</div>
-					<Toaster />
+					<ThemeContextProvider>
+						{children}
+						<Footer />
+						<div>
+							<ToTopBtn />
+							<ThemeBtn />
+						</div>
+						<Toaster />
+					</ThemeContextProvider>
 				</ActiveSectionProvider>
 			</body>
 		</html>

@@ -2,8 +2,8 @@ import Navbar from "@/components/navbar";
 import Experience from "@/components/sections/Experience";
 import About from "@/components/sections/about";
 import Contact from "@/components/sections/contact";
+import FeaturedProjects from "@/components/sections/featured-projects";
 import Intro from "@/components/sections/intro";
-import LatestProjects from "@/components/sections/latest-projects";
 import Skills from "@/components/sections/skills";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
 			<Navbar />
 			<Intro />
 			<About />
-			<LatestProjects />
+			<FeaturedProjects />
 			<Skills />
 			<Experience />
 			<Contact />
