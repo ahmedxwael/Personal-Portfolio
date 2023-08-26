@@ -1,4 +1,5 @@
 import ThemeBtn from "@/components/ThemeBtn";
+import ToTopBtn from "@/components/ToTopBtn";
 import Footer from "@/components/footer";
 import ActiveSectionProvider from "@/context/active-section-provider";
 import type { Metadata } from "next";
@@ -34,7 +35,10 @@ export default function RootLayout({
 				<ActiveSectionProvider>
 					{children}
 					<Footer />
-					<ThemeBtn />
+					<div>
+						<ToTopBtn />
+						<ThemeBtn />
+					</div>
 					<Toaster />
 				</ActiveSectionProvider>
 			</body>
