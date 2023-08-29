@@ -8,6 +8,7 @@ type ProjectType = {
 	imageUrl: string;
 	url: string;
 	githubUrl: string;
+	inProgress?: boolean;
 };
 
 type SkillType = string;

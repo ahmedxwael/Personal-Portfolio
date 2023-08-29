@@ -68,6 +68,23 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
+		title: "TopicHub",
+		description:
+			"It is a website that allows users in tech or any field to write and publish articles about general stuff to share their knowledge with other people and help them learn new topics.",
+		tags: [
+			"React",
+			"Next.js",
+			"Next Auth",
+			"Vercel",
+			"Tailwind CSS",
+			"TypeScript",
+		],
+		imageUrl: "/assets/images/topic-hub.png",
+		url: "https://rest-api-nu-six.vercel.app",
+		githubUrl: "https://github.com/JAHMD/REST-API",
+		inProgress: true,
+	},
+	{
 		title: "Bloggify",
 		description:
 			"It's a blog website that represents posts written and published in a GitHub repository and displays them as an MDX files. Build with the latest feautres of next.js such as app router and server-side components",
@@ -117,6 +134,75 @@ export const projectsData = [
 		url: "https://the-store-ecommerce.netlify.app",
 		githubUrl: "https://github.com/JAHMD/E-Commerce",
 	},
+	{
+		title: "Where in the world",
+		description:
+			"The idea of the app is inspired from a front-end mentor challenge. It is an app to show the world countries and filter them according to their region with displaying some details about each one of them, and it also has a theme changer.",
+		tags: ["React", "APIs", "React Router", "Tailwind css", "JavaScript"],
+		imageUrl: "/assets/images/countries-screen.png",
+		url: "https://r-where-in-the-world.netlify.app",
+		githubUrl: "https://github.com/JAHMD/Where_In_The_World-React#built-with",
+	},
+	{
+		title: "Van Life",
+		description:
+			"Add adventure to your life by joining the #vanlife movement. Rent the perfect van to make your perfect road trip.",
+		tags: ["React", "Firebase", "React Router", "CSS", "JavaScript"],
+		imageUrl: "/assets/images/van-life.png",
+		url: "https://main--vans-life-app.netlify.app",
+		githubUrl: "https://github.com/JAHMD/Van_Life",
+	},
+	{
+		title: "Article Summarizer",
+		description:
+			"It's an Article Summarizer Application using OpenAI's GPT model.",
+		tags: ["React", "APIs", "Tailwind CSS", "OpenAI", "JavaScript"],
+		imageUrl: "/assets/images/open-ai.png",
+		url: "https://openai-article-summerizer.netlify.app",
+		githubUrl: "https://github.com/JAHMD/OpenAI_Article_Summarizer",
+	},
+	{
+		title: "Build Better",
+		description:
+			"It's an app has built to help you to get some of your helper tools from one place.",
+		tags: [
+			"React",
+			"React Router",
+			"Tailwind CSS",
+			"LocalStorage",
+			"JavaScript",
+		],
+		imageUrl: "/assets/images/build-better.png",
+		url: "https://jahmd.github.io/Build_Better",
+		githubUrl: "https://github.com/JAHMD/Build_Better",
+	},
+	{
+		title: "Rock, Paper and Scissors",
+		description:
+			"It's a solution to the Rock, Paper, Scissors challenge on Frontend Mentor, and it's a Rock, paper and scissors game.",
+		tags: ["Tailwind CSS", "HTML", "CSS", "JavaScript"],
+		imageUrl: "/assets/images/rock-paper-scissors.png",
+		url: "https://jahmd.github.io/Rock_Paper_Scissors",
+		githubUrl: "https://github.com/JAHMD/Rock_Paper_Scissors",
+	},
+	{
+		title: "Shortly",
+		description:
+			"It's an application that allows you to shorten any valid URL, see a list of your shortened links and copy the shortened link to your clipboard by a single click.",
+		tags: ["JavaScript", "Tailwind CSS", "LocalStorage", "HTML", "CSS", "APIs"],
+		imageUrl: "/assets/images/shorten-url.png",
+		url: "https://jahmd.github.io/URL_shortening",
+		githubUrl: "https://github.com/JAHMD/URL_shortening",
+	},
+	{
+		title: "Repos Fetcher",
+		description:
+			"It's an application to fetch repos from github to any user and show them up to the page.",
+		tags: ["JavaScript", "CSS", "HTML", "CSS", "APIs"],
+		imageUrl: "/assets/images/fetch-repos.png",
+		url: "https://jahmd.github.io/Fetch_github_repos_app",
+		githubUrl: "https://github.com/JAHMD/Fetch_github_repos_app",
+	},
 ];
 
 export const featuredProjects = [
@@ -125,8 +211,8 @@ export const featuredProjects = [
 		description:
 			"It's a blog website that represents posts written and published in a GitHub repository and displays them as an MDX files. Build with the latest feautres of next.js such as app router and server-side components",
 		tags: [
-			"React",
 			"Next.js",
+			"React",
 			"GitHub API",
 			"MDX",
 			"Tailwind CSS",
@@ -137,22 +223,6 @@ export const featuredProjects = [
 		githubUrl: "https://github.com/JAHMD/Blog-Nextjs",
 	},
 	{
-		title: "Promptopia",
-		description:
-			"It's an website used to generate and save AI prompts to be used when it's needed. Users can sign in with their google account and save their own prompts and other users promts.",
-		tags: [
-			"React",
-			"TypeScript",
-			"Next.js",
-			"Tailwind css",
-			"Next auth",
-			"MongoDB",
-		],
-		imageUrl: "/assets/images/promptopia.png",
-		url: "https://promptopia-alpha-three.vercel.app",
-		githubUrl: "https://github.com/JAHMD/Promptopia",
-	},
-	{
 		title: "Blog nook",
 		description:
 			"It is a website that allows individuals or businesses to create and publish their own blogs on the internet. Each user can create and manage their own blog and blog articles.",
@@ -160,6 +230,15 @@ export const featuredProjects = [
 		imageUrl: "/assets/images/blog-nook.png",
 		url: "https://blog-nook.vercel.app",
 		githubUrl: "https://github.com/JAHMD/Blog-nook",
+	},
+	{
+		title: "E-commerce Store",
+		description:
+			"It is a modern and user-friendly platform that allows customers to browse, search, and purchase products online. It incorporates various technologies to provide a seamless and interactive shopping experience.",
+		tags: ["React", "APIs", "Redux", "Tailwind css", "TypeScript"],
+		imageUrl: "/assets/images/ecommerce.png",
+		url: "https://the-store-ecommerce.netlify.app",
+		githubUrl: "https://github.com/JAHMD/E-Commerce",
 	},
 ];
 
