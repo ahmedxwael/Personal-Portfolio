@@ -1,6 +1,7 @@
 "use client";
 
 import { projectsData } from "@/lib/data";
+import { ProjectType } from "@/types";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +9,7 @@ import { useRef } from "react";
 import { FaGithub } from "react-icons/fa";
 import { HiLink } from "react-icons/hi";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = ProjectType;
 
 export default function ProjectCard({
 	title,
@@ -17,6 +18,7 @@ export default function ProjectCard({
 	imageUrl,
 	githubUrl,
 	url,
+	inProgress,
 }: ProjectProps) {
 	const ref = useRef<HTMLDivElement>(null);
 
@@ -31,12 +33,19 @@ export default function ProjectCard({
 	return (
 		<motion.article
 			ref={ref}
-			className={`group bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden shadow-lg shadow-black/5 relative sm:h-[364px] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-gray-200/10 dark:hover:bg-gray-200/20`}
+			className={`${
+				inProgress ? "" : "group hover:bg-gray-200 dark:hover:bg-gray-200/20"
+			} bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden shadow-lg shadow-black/5 relative sm:h-[364px] transition sm:group-even:pl-8 dark:text-white dark:bg-gray-200/10`}
 			style={{
 				scale: scaleProgess,
 				opacity: opacityProgess,
 			}}
 		>
+			{inProgress ? (
+				<span className="absolute top-0 left-0 w-full h-full bg-gray-100/90 dark:bg-gray-950/90 z-10 flex items-center justify-center font-bold text-3xl text-center">
+					Comming soon
+				</span>
+			) : null}
 			<div className="p-5 sm:pl-6 sm:pr-6 sm:pt-7 sm:max-w-[55%] flex flex-col gap-2 h-full sm:group-even:ml-auto">
 				<h3 className="text-2xl font-semibold">{title}</h3>
 				<p className="leading-relaxed text-gray-700 dark:text-white/70">
