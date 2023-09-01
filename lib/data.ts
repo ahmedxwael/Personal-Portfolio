@@ -82,7 +82,6 @@ export const projectsData = [
 		imageUrl: "/assets/images/topic-hub.png",
 		url: "https://rest-api-nu-six.vercel.app",
 		githubUrl: "https://github.com/JAHMD/REST-API",
-		inProgress: true,
 	},
 	{
 		title: "Bloggify",
@@ -207,20 +206,21 @@ export const projectsData = [
 
 export const featuredProjects = [
 	{
-		title: "Bloggify",
+		title: "TopicHub",
 		description:
-			"It's a blog website that represents posts written and published in a GitHub repository and displays them as an MDX files. Build with the latest feautres of next.js such as app router and server-side components",
+			"It is a website that allows users in tech or any field to write and publish articles about general stuff to share their knowledge with other people and help them learn new topics.",
 		tags: [
-			"Next.js",
 			"React",
-			"GitHub API",
-			"MDX",
+			"Next.js",
+			"Next Auth",
+			"Vercel",
 			"Tailwind CSS",
 			"TypeScript",
+			"REST API",
 		],
-		imageUrl: "/assets/images/bloggify.png",
-		url: "https://blog-nextjs-two-zeta.vercel.app",
-		githubUrl: "https://github.com/JAHMD/Blog-Nextjs",
+		imageUrl: "/assets/images/topic-hub.png",
+		url: "https://rest-api-nu-six.vercel.app",
+		githubUrl: "https://github.com/JAHMD/REST-API",
 	},
 	{
 		title: "Blog nook",
