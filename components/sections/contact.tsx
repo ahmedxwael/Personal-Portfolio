@@ -25,6 +25,10 @@ const Contact = () => {
 	const handleSubmit = async (
 		e: React.MouseEvent<HTMLButtonElement, MouseEvent>
 	) => {
+		if(!formData.senderEmail || !formData.message){
+			notify("Email and message are required");
+			return;
+		}
 		setIsLoading(true);
 		const res = await fetch("/api/send-email", {
 			method: "POST",
