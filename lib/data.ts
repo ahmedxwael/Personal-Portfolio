@@ -42,31 +42,58 @@ export const about = [
 export const experiencesData = [
 	{
 		title: "Graduated from college",
-		location: "Maadi, Egypt",
+		location: "Thebes academy - Maadi, Egypt",
 		description:
 			"I graduated as a electronics and communications engineer after 5 years of studying.",
 		icon: React.createElement(LuGraduationCap),
-		date: "2018 - 2023",
+		date: "Sep 2018 - Jul 2023",
 	},
 	{
 		title: "Front-End React Developer",
-		location: "Remote",
+		location: "Intern2Grow - Remote",
 		description:
 			"I took a virtual internship as a front-end react developer and I worked on adding new features to an existing projects and fixing some bugs and errors.",
 		icon: React.createElement(CgWorkAlt),
-		date: "2023",
+		date: "May 2023 - Jul 2023",
 	},
 	{
 		title: "Front-End Developer",
 		location: "Cairo, Egypt",
 		description:
-			"I'm now building side projects to improve my skills and get some experience. I'm learning new technologies and looking for an opportunity in web development. My stack includes React, Next.js, TypeScript, Tailwind CSS, and MongoDB. I'm open to full-time and part-time opportunities.",
+			"I build side projects to improve my skills and gain more experience. I learned new technologies such as Next.js and mongoDB. My stack includes React, Next.js, TypeScript, Tailwind CSS, and MongoDB.",
 		icon: React.createElement(FaReact),
-		date: "2023 - present",
+		date: "Jul 2023 - Aug 2023",
+	},
+	{
+		title: "Front-End Developer",
+		location: "Crafted Internet - Cairo, Egypt",
+		description:
+			"My responsibility is to create responsive and good-looking web applications from scratch until they're ready to be used by the client. My job depends on communicating with other developers and designers to achieve our goals by creating a product that includes great performance and a great user experience.",
+		icon: React.createElement(FaReact),
+		date: "Aug 2023 - Present",
 	},
 ] as const;
 
 export const projectsData = [
+	{
+		title: "Chat loom",
+		description:
+			"It's a chat application built with next.js, typescript, tailwindcss and socket.io.",
+		tags: [
+			"React",
+			"Next.js",
+			"Next Auth",
+			"Tailwind CSS",
+			"TypeScript",
+			"Shadcn/ui",
+			"MongoDB",
+			"Prisma",
+		],
+		imageUrl: "/assets/images/chat-loom.png",
+		url: "",
+		githubUrl: "https://github.com/JAHMD/Chat-Loom",
+		inProgress: true,
+	},
 	{
 		title: "TopicHub",
 		description:
@@ -75,9 +102,9 @@ export const projectsData = [
 			"React",
 			"Next.js",
 			"Next Auth",
-			"Vercel",
 			"Tailwind CSS",
 			"TypeScript",
+			"MongoDB",
 		],
 		imageUrl: "/assets/images/topic-hub.png",
 		url: "https://rest-api-nu-six.vercel.app",
@@ -213,7 +240,6 @@ export const featuredProjects = [
 			"React",
 			"Next.js",
 			"Next Auth",
-			"Vercel",
 			"Tailwind CSS",
 			"TypeScript",
 			"REST API",
