@@ -184,7 +184,7 @@ export const projectsData = [
 			"It's an Article Summarizer Application using OpenAI's GPT model.",
 		tags: ["React", "APIs", "Tailwind CSS", "OpenAI", "JavaScript"],
 		imageUrl: "/assets/images/open-ai.png",
-		url: "https://openai-article-summerizer.netlify.app",
+		url: "https://jahmd.github.io/OpenAI_Article_Summarizer",
 		githubUrl: "https://github.com/JAHMD/OpenAI_Article_Summarizer",
 	},
 	{
