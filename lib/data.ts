@@ -107,7 +107,7 @@ export const projectsData = [
 			"MongoDB",
 		],
 		imageUrl: "/assets/images/topic-hub.png",
-		url: "https://rest-api-nu-six.vercel.app",
+		url: "https://topic-hub.vercel.app",
 		githubUrl: "https://github.com/JAHMD/REST-API",
 	},
 	{
