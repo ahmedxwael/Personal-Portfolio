@@ -91,7 +91,7 @@ export const projectsData = [
 		],
 		imageUrl: "/assets/images/chat-loom.png",
 		url: "",
-		githubUrl: "https://github.com/JAHMD/Chat-Loom",
+		githubUrl: "https://github.com/ahmedxwael/Chat-Loom",
 		inProgress: true,
 	},
 	{
@@ -108,7 +108,7 @@ export const projectsData = [
 		],
 		imageUrl: "/assets/images/topic-hub.png",
 		url: "https://topic-hub.vercel.app",
-		githubUrl: "https://github.com/JAHMD/REST-API",
+		githubUrl: "https://github.com/ahmedxwael/REST-API",
 	},
 	{
 		title: "Bloggify",
@@ -124,7 +124,7 @@ export const projectsData = [
 		],
 		imageUrl: "/assets/images/bloggify.png",
 		url: "https://blog-nextjs-two-zeta.vercel.app",
-		githubUrl: "https://github.com/JAHMD/Blog-Nextjs",
+		githubUrl: "https://github.com/ahmedxwael/Blog-Nextjs",
 	},
 	{
 		title: "Promptopia",
@@ -140,7 +140,7 @@ export const projectsData = [
 		],
 		imageUrl: "/assets/images/promptopia.png",
 		url: "https://promptopia-alpha-three.vercel.app",
-		githubUrl: "https://github.com/JAHMD/Promptopia",
+		githubUrl: "https://github.com/ahmedxwael/Promptopia",
 	},
 	{
 		title: "Blog nook",
@@ -149,7 +149,7 @@ export const projectsData = [
 		tags: ["React", "Clerk", "TypeScript", "Tailwind css", "Firebase"],
 		imageUrl: "/assets/images/blog-nook.png",
 		url: "https://blog-nook.vercel.app",
-		githubUrl: "https://github.com/JAHMD/Blog-nook",
+		githubUrl: "https://github.com/ahmedxwael/Blog-nook",
 	},
 	{
 		title: "E-commerce Store",
@@ -158,7 +158,7 @@ export const projectsData = [
 		tags: ["React", "APIs", "Redux", "Tailwind css", "TypeScript"],
 		imageUrl: "/assets/images/ecommerce.png",
 		url: "https://the-store-ecommerce.netlify.app",
-		githubUrl: "https://github.com/JAHMD/E-Commerce",
+		githubUrl: "https://github.com/ahmedxwael/E-Commerce",
 	},
 	{
 		title: "Where in the world",
@@ -167,7 +167,7 @@ export const projectsData = [
 		tags: ["React", "APIs", "React Router", "Tailwind css", "JavaScript"],
 		imageUrl: "/assets/images/countries-screen.png",
 		url: "https://r-where-in-the-world.netlify.app",
-		githubUrl: "https://github.com/JAHMD/Where_In_The_World-React#built-with",
+		githubUrl: "https://github.com/ahmedxwael/Where_In_The_World-React#built-with",
 	},
 	{
 		title: "Van Life",
@@ -176,7 +176,7 @@ export const projectsData = [
 		tags: ["React", "Firebase", "React Router", "CSS", "JavaScript"],
 		imageUrl: "/assets/images/van-life.png",
 		url: "https://main--vans-life-app.netlify.app",
-		githubUrl: "https://github.com/JAHMD/Van_Life",
+		githubUrl: "https://github.com/ahmedxwael/Van_Life",
 	},
 	{
 		title: "Article Summarizer",
@@ -185,7 +185,7 @@ export const projectsData = [
 		tags: ["React", "APIs", "Tailwind CSS", "OpenAI", "JavaScript"],
 		imageUrl: "/assets/images/open-ai.png",
 		url: "https://jahmd.github.io/OpenAI_Article_Summarizer",
-		githubUrl: "https://github.com/JAHMD/OpenAI_Article_Summarizer",
+		githubUrl: "https://github.com/ahmedxwael/OpenAI_Article_Summarizer",
 	},
 	{
 		title: "Build Better",
@@ -200,7 +200,7 @@ export const projectsData = [
 		],
 		imageUrl: "/assets/images/build-better.png",
 		url: "https://jahmd.github.io/Build_Better",
-		githubUrl: "https://github.com/JAHMD/Build_Better",
+		githubUrl: "https://github.com/ahmedxwael/Build_Better",
 	},
 	{
 		title: "Rock, Paper and Scissors",
@@ -209,7 +209,7 @@ export const projectsData = [
 		tags: ["Tailwind CSS", "HTML", "CSS", "JavaScript"],
 		imageUrl: "/assets/images/rock-paper-scissors.png",
 		url: "https://jahmd.github.io/Rock_Paper_Scissors",
-		githubUrl: "https://github.com/JAHMD/Rock_Paper_Scissors",
+		githubUrl: "https://github.com/ahmedxwael/Rock_Paper_Scissors",
 	},
 	{
 		title: "Shortly",
@@ -218,7 +218,7 @@ export const projectsData = [
 		tags: ["JavaScript", "Tailwind CSS", "LocalStorage", "HTML", "CSS", "APIs"],
 		imageUrl: "/assets/images/shorten-url.png",
 		url: "https://jahmd.github.io/URL_shortening",
-		githubUrl: "https://github.com/JAHMD/URL_shortening",
+		githubUrl: "https://github.com/ahmedxwael/URL_shortening",
 	},
 	{
 		title: "Repos Fetcher",
@@ -227,7 +227,7 @@ export const projectsData = [
 		tags: ["JavaScript", "CSS", "HTML", "CSS", "APIs"],
 		imageUrl: "/assets/images/fetch-repos.png",
 		url: "https://jahmd.github.io/Fetch_github_repos_app",
-		githubUrl: "https://github.com/JAHMD/Fetch_github_repos_app",
+		githubUrl: "https://github.com/ahmedxwael/Fetch_github_repos_app",
 	},
 ];
 
@@ -246,7 +246,7 @@ export const featuredProjects = [
 		],
 		imageUrl: "/assets/images/topic-hub.png",
 		url: "https://rest-api-nu-six.vercel.app",
-		githubUrl: "https://github.com/JAHMD/REST-API",
+		githubUrl: "https://github.com/ahmedxwael/REST-API",
 	},
 	{
 		title: "Blog nook",
@@ -255,7 +255,7 @@ export const featuredProjects = [
 		tags: ["React", "Clerk", "TypeScript", "Tailwind css", "Firebase"],
 		imageUrl: "/assets/images/blog-nook.png",
 		url: "https://blog-nook.vercel.app",
-		githubUrl: "https://github.com/JAHMD/Blog-nook",
+		githubUrl: "https://github.com/ahmedxwael/Blog-nook",
 	},
 	{
 		title: "E-commerce Store",
@@ -264,7 +264,7 @@ export const featuredProjects = [
 		tags: ["React", "APIs", "Redux", "Tailwind css", "TypeScript"],
 		imageUrl: "/assets/images/ecommerce.png",
 		url: "https://the-store-ecommerce.netlify.app",
-		githubUrl: "https://github.com/JAHMD/E-Commerce",
+		githubUrl: "https://github.com/ahmedxwael/E-Commerce",
 	},
 ];
 
