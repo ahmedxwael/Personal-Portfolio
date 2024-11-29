@@ -184,7 +184,7 @@ export const projectsData = [
 			"It's an Article Summarizer Application using OpenAI's GPT model.",
 		tags: ["React", "APIs", "Tailwind CSS", "OpenAI", "JavaScript"],
 		imageUrl: "/assets/images/open-ai.png",
-		url: "https://jahmd.github.io/OpenAI_Article_Summarizer",
+		url: "https://ahmedxwael.github.io/OpenAI_Article_Summarizer",
 		githubUrl: "https://github.com/ahmedxwael/OpenAI_Article_Summarizer",
 	},
 	{
@@ -199,7 +199,7 @@ export const projectsData = [
 			"JavaScript",
 		],
 		imageUrl: "/assets/images/build-better.png",
-		url: "https://jahmd.github.io/Build_Better",
+		url: "https://ahmedxwael.github.io/Build_Better",
 		githubUrl: "https://github.com/ahmedxwael/Build_Better",
 	},
 	{
@@ -208,7 +208,7 @@ export const projectsData = [
 			"It's a solution to the Rock, Paper, Scissors challenge on Frontend Mentor, and it's a Rock, paper and scissors game.",
 		tags: ["Tailwind CSS", "HTML", "CSS", "JavaScript"],
 		imageUrl: "/assets/images/rock-paper-scissors.png",
-		url: "https://jahmd.github.io/Rock_Paper_Scissors",
+		url: "https://ahmedxwael.github.io/Rock_Paper_Scissors",
 		githubUrl: "https://github.com/ahmedxwael/Rock_Paper_Scissors",
 	},
 	{
@@ -217,7 +217,7 @@ export const projectsData = [
 			"It's an application that allows you to shorten any valid URL, see a list of your shortened links and copy the shortened link to your clipboard by a single click.",
 		tags: ["JavaScript", "Tailwind CSS", "LocalStorage", "HTML", "CSS", "APIs"],
 		imageUrl: "/assets/images/shorten-url.png",
-		url: "https://jahmd.github.io/URL_shortening",
+		url: "https://ahmedxwael.github.io/URL_shortening",
 		githubUrl: "https://github.com/ahmedxwael/URL_shortening",
 	},
 	{
@@ -226,7 +226,7 @@ export const projectsData = [
 			"It's an application to fetch repos from github to any user and show them up to the page.",
 		tags: ["JavaScript", "CSS", "HTML", "CSS", "APIs"],
 		imageUrl: "/assets/images/fetch-repos.png",
-		url: "https://jahmd.github.io/Fetch_github_repos_app",
+		url: "https://ahmedxwael.github.io/Fetch_github_repos_app",
 		githubUrl: "https://github.com/ahmedxwael/Fetch_github_repos_app",
 	},
 ];
