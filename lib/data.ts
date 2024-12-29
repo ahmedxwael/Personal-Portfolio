@@ -108,7 +108,7 @@ export const projectsData = [
 		],
 		imageUrl: "/assets/images/topic-hub.png",
 		url: "",
-		githubUrl: "https://github.com/ahmedxwael/REST-API",
+		githubUrl: "https://github.com/ahmedxwael/TobicHub",
 		inProgress: true,
 	},
 	{
