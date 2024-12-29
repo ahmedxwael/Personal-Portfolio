@@ -107,8 +107,9 @@ export const projectsData = [
 			"MongoDB",
 		],
 		imageUrl: "/assets/images/topic-hub.png",
-		url: "https://topic-hub.vercel.app",
+		url: "",
 		githubUrl: "https://github.com/ahmedxwael/REST-API",
+		inProgress: true,
 	},
 	{
 		title: "Bloggify",
